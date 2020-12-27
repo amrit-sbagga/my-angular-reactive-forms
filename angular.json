@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "my-angular-reactive-forms"
+  "defaultProject": "my-angular-reactive-forms",
+  "cli": {
+    "analytics": false
+  }
 }
