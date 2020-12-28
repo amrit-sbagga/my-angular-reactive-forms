@@ -1,0 +1,18 @@
+<h2>Customer Details</h2>
+
+<p>Value from Customer = {{customersKey}}</p>
+
+<table border="1">
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Contactno</th>
+        <th>EmailId</th>
+    </tr>
+    <tr *ngFor="let custData of customersKey">
+       <td>{{custData.firstName}}</td>
+       <td>{{custData.lastName}}</td>
+       <td>{{custData.contactno}}</td>
+       <td>{{custData.emailId}}</td>
+    </tr>
+</table>

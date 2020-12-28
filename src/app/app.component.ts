@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-angular-reactive-forms';
+
+  customers = [];
+
+  submitCustomerDetail(value){
+    console.log(value);
+    this.customers.unshift(value);
+  }
+
 }
